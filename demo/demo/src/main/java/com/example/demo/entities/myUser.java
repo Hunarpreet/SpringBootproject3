@@ -4,6 +4,7 @@ package com.example.demo.entities;
         import jakarta.persistence.GeneratedValue;
         import jakarta.persistence.GenerationType;
         import jakarta.persistence.Id;
+        import org.h2.engine.Database;
 
 @Entity
 public class myUser {
@@ -13,7 +14,6 @@ public class myUser {
     private String name;
     private String city;
     private String status;
-
     public int getId() {
         return id;
     }

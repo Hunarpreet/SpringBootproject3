@@ -9,6 +9,8 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Optional;
+
 
 @RestController
 public class TestController {
@@ -35,7 +37,7 @@ public class TestController {
     }
 
     @GetMapping("/find/{id}")
-    public myUser findUserById(@PathVariable Integer id) {
+    public Optional<myUser> findUserById(@PathVariable Integer id) {
 
         return this.myuserservice.findUserById(id);
     }
