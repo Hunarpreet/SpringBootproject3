@@ -1,10 +1,6 @@
 package com.example.demo;
 
 import com.example.demo.entities.myUser;
-import jakarta.persistence.criteria.CriteriaBuilder;
-import netscape.javascript.JSObject;
-import org.h2.engine.Database;
-import org.h2.engine.User;
 import org.springframework.http.*;
 import org.springframework.web.client.RestTemplate;
 
