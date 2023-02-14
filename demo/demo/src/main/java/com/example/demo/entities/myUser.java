@@ -1,11 +1,8 @@
 package com.example.demo.entities;
-
-
-
-        import javax.persistence.Entity;
-        import javax.persistence.GeneratedValue;
-        import javax.persistence.GenerationType;
-        import javax.persistence.Id;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 
 @Entity
 public class myUser {
@@ -15,7 +12,6 @@ public class myUser {
     private String name;
     private String city;
     private String status;
-
     public int getId() {
         return id;
     }
